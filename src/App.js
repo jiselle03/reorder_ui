@@ -1,12 +1,15 @@
-import './App.css';
+import Container from 'react-bootstrap/Container';
+import List from './components/List';
 
 const App = () => {
   return (
-    <div>
+    <Container>
       <header>
-        List App
+        <h1>List App</h1>
       </header>
-    </div>
+
+      <List />
+    </Container>
   );
 }
 
