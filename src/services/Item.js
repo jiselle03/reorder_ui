@@ -16,7 +16,6 @@ const Item = {
     });
   },
   reorder: async (_id, item, position) => {
-    console.log(_id, item, position);
     return axios.put(`${API}/lists/${_id}/reorder`, {
       item, position,
     },
